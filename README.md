@@ -1,3 +1,3 @@
 # Tic-tac-toe Website 
 
-## deployed on Herokuapp Free
+deployed on Herokuapp Free
