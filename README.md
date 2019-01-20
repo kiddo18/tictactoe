@@ -1,3 +1,3 @@
-# tictactoe
+# Tic-tac-toe Website 
 
-###TIC TAC TOE game
+## deployed on Herokuapp Free
