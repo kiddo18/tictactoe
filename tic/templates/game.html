@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <table>
+        {% for i in range(3) %}
+            <tr>
+                {% for j in range(3) %}
+                    <td>
+                        {% if game[i][j] %}
+                            {{ game[i][j] }}
+                        {% else %}
+                            <a href="{{ url_for('play', row=i, col=j) }}">Play {{ turn }}</a>
+                        {% endif %}
+                    </td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+    <h1> {{ result }} </h1>
+    <a href="{{ url_for('reset') }}">Reset</a>
+    
+    
+
+{% endblock %}
